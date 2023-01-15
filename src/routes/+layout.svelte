@@ -1,53 +1,22 @@
 <script>
-	import Header from './Header.svelte';
+	import "../app.css";
 	import './styles.css';
+	import Header from './Header.svelte';
+	
 </script>
 
 <div class="app">
-	<Header />
-
+	<!-- <Header /> -->
+	<div class="navbar bg-base-100 fixed top-0">
+		<a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+	  </div>
 	<main>
-		<slot />
+		<slot/>
 	</main>
 
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<footer class="footer footer-center p-4 bg-base-300 text-base-content fixed bottom-0">
+		<div>
+		  <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+		</div>
 	</footer>
 </div>
-
-<style>
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
-
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
-</style>

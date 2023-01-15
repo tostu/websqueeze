@@ -5,7 +5,10 @@ const config: UserConfig = {
 	plugins: [sveltekit()],
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
-	}
+	},
+	server: {
+		hmr: {host: '0.0.0.0'},
+	  },
 };
 
 export default config;
