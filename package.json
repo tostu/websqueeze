@@ -12,7 +12,8 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
 		"docker:dev": "npm i && vite dev --host",
-		"build:watch": "vite build --watch"
+		"build:watch": "vite build --watch",
+		"wrangler_dev": "npx wrangler pages dev .svelte-kit/cloudflare --d1=websqueeze_db"
 	},
 	"devDependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
@@ -25,6 +26,7 @@
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
 		"autoprefixer": "^10.4.13",
+		"better-sqlite3": "^7.6.2",
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",

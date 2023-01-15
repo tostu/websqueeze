@@ -7,17 +7,23 @@ declare global {
 		// interface Locals {}
 		// interface PageData {}
 		// interface Platform {}
+
+		interface Platform {
+			env: {
+				websqueeze_db: D1Database;
+			};
+			context: {
+				waitUntil(promise: Promise<any>): void;
+			};
+			caches: CacheStorage & { default: Cache }
+		}
+
+		interface Env {
+			websqueeze_db: D1Database;
+		  }
 	}
 
-	interface Platform {
-		env: {
-			COUNTER: DurableObjectNamespace;
-		};
-		context: {
-			waitUntil(promise: Promise<any>): void;
-		};
-		caches: CacheStorage & { default: Cache }
-	}
+
 }
 
 export {};
