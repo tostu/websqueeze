@@ -11,7 +11,11 @@
 	<div class="hero min-h-screen bg-base-200">
 		<div class="hero-content text-center">
 			<div class="max-w-md">
-			<h1 class="text-5xl font-bold">WebSqueeze</h1>
+			<div class="flex justify-center items-center content-center">
+				<img src="https://img.icons8.com/external-filled-color-icons-papa-vector/78/null/external-utensil-cooking-instruction-icons-color-filled-filled-color-icons-papa-vector-2.png" alt="lemon squeezer icon"/>
+				<span class="text-5xl font-bold">WebSqueeze</span>
+			</div>
+				
 			<p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
 			<div class="form-control">
 				<div class="input-group justify-center">

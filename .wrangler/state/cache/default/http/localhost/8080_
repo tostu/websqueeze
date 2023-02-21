@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="./_app/immutable/assets/_layout-adfe9829.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/start-04998152.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index-ca48747f.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-fb6b4e23.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-4a05212e.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_page.svelte-426aa6bf.js">
+		<link rel="modulepreload" href="./_app/immutable/modules/pages/_page.ts-dc85b7cd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/_page-da46b06b.js"><title>WebSqueeze</title><!-- HEAD_svelte-swu93p_START --><meta name="description" content="WebSqueeze link shortener"><!-- HEAD_svelte-swu93p_END -->
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+
+
+<div class="app">
+	<div class="navbar bg-base-100 fixed top-0"><div class="flex justify-center items-center content-center"><img src="https://img.icons8.com/external-filled-color-icons-papa-vector/50/null/external-utensil-cooking-instruction-icons-color-filled-filled-color-icons-papa-vector-2.png" alt="lemon squeezer icon">
+			<span class="text-xl">WebSqueeze</span></div></div>
+	<main>
+
+<section><div class="hero min-h-screen bg-base-200"><div class="hero-content text-center"><div class="max-w-md"><div class="flex justify-center items-center content-center"><img src="https://img.icons8.com/external-filled-color-icons-papa-vector/78/null/external-utensil-cooking-instruction-icons-color-filled-filled-color-icons-papa-vector-2.png" alt="lemon squeezer icon">
+				<span class="text-5xl font-bold">WebSqueeze</span></div>
+				
+			<p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+			<div class="form-control"><div class="input-group justify-center"><input type="text" placeholder="Search…" class="input input-bordered">
+				  <button class="btn btn-square"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button></div></div></div></div></div></section></main>
+
+	<footer class="footer footer-center p-4 bg-base-300 text-base-content fixed bottom-0"><div><p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p></div></footer></div>
+
+
+		<script type="module" data-sveltekit-hydrate="csp9u4">
+			import { start } from "./_app/immutable/start-04998152.js";
+
+			start({
+				env: {},
+				paths: {"assets":"","base":""},
+				target: document.querySelector('[data-sveltekit-hydrate="csp9u4"]').parentNode,
+				version: "1675520877250",
+				hydrate: {
+					node_ids: [0, 2],
+					data: [null,null],
+					form: null,
+					error: null
+				}
+			});
+		</script>
+	</div>
+	</body>
+</html>

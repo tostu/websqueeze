@@ -8,7 +8,10 @@
 <div class="app">
 	<!-- <Header /> -->
 	<div class="navbar bg-base-100 fixed top-0">
-		<a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+		<div class="flex justify-center items-center content-center">
+			<img src="https://img.icons8.com/external-filled-color-icons-papa-vector/50/null/external-utensil-cooking-instruction-icons-color-filled-filled-color-icons-papa-vector-2.png" alt="lemon squeezer icon"/>
+			<span class="text-xl">WebSqueeze</span>
+		</div>
 	  </div>
 	<main>
 		<slot/>

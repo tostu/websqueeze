@@ -13,7 +13,9 @@
 		"format": "prettier --plugin-search-dir . --write .",
 		"docker:dev": "npm i && vite dev --host",
 		"build:watch": "vite build --watch",
-		"wrangler_dev": "wrangler pages dev .svelte-kit/cloudflare --d1=websqueeze_db --persist"
+		"wrangler_dev": "wrangler pages dev .svelte-kit/cloudflare --d1=websqueeze_db --persist --port 8080",
+		"start": "pm2 start 'npm run build:watch' && pm2 start 'npm run wrangler_dev'",
+		"stop": "pm2 stop all"
 	},
 	"devDependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
@@ -30,6 +32,7 @@
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
+		"pm2": "^5.2.2",
 		"postcss": "^8.4.21",
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.8.1",
@@ -44,6 +47,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"daisyui": "^2.46.1"
+		"daisyui": "^2.46.1",
+		"nanoid": "^4.0.0"
 	}
 }

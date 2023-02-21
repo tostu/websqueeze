@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "local",
+            "database": "${workspaceFolder:websqueeze}/.wrangler/state/d1/websqueeze_db.sqlite3"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
